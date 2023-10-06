@@ -1,4 +1,6 @@
-# TrabalhoRedesII
+# TrabalhoRedes 2
+<b>UFSC 2023/2</b>
+Professor <a href="https://github.com/glcamillo">Gerson Luiz Camillo</a>
 
 Participantes: Everton, Marcos, Vitória;
 
