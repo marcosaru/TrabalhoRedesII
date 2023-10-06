@@ -44,6 +44,11 @@ SUMÁRIO
 
 <a href="https://ibb.co/BjcRQms"><img src="https://i.ibb.co/NptzJXY/Captura-de-tela-de-2023-10-06-11-47-12.png" alt="Captura-de-tela-de-2023-10-06-11-47-12" border="0"></a>
 
+
+<h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
+
+<a href="https://ibb.co/2cRy8tR"><img src="https://i.ibb.co/xzwDmjw/Captura-de-tela-de-2023-10-06-15-13-12.png" alt="Captura-de-tela-de-2023-10-06-15-13-12" border="0"></a>
+
 Usuario root: Marcos
 
 Criador da instância: Marcos
