@@ -11,3 +11,4 @@ Adicionar convidados para logon Administrador na VM: Marcos
 
 Ativação do firewall: Everton
 
+Realizando alterações 
