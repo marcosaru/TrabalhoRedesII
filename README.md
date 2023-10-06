@@ -36,13 +36,20 @@ SUMÁRIO
 
 <h2 id="grupo-de-gerentes">Grupo de Gerentes</h2>
 
-<a href="https://ibb.co/R4VQx7R"><img src="https://i.ibb.co/CsTVkWR/Captura-de-tela-de-2023-10-06-11-45-18.png" alt="Captura-de-tela-de-2023-10-06-11-45-18" border="0"></a>
+<a href="https://ibb.co/R4VQx7R"><img src="https://i.ibb.co/CsTVkWR/Captura-de-tela-de-2023-10-06-11-45-18.png" alt="Gerentes" border="0"></a>
 
 
 
 <h2 id= "#grupo-cebola">Grupo Cebola</h2>
 
-<a href="https://ibb.co/BjcRQms"><img src="https://i.ibb.co/NptzJXY/Captura-de-tela-de-2023-10-06-11-47-12.png" alt="Captura-de-tela-de-2023-10-06-11-47-12" border="0"></a>
+<a href="https://ibb.co/BjcRQms"><img src="https://i.ibb.co/NptzJXY/Captura-de-tela-de-2023-10-06-11-47-12.png" alt="Cebola" border="0"></a>
+
+<h2 id="chaves"> Chaves pública/privada</h2><br>
+<p>Configuração necessária para conseguir ler todas as chaves:</p>
+<a href="https://ibb.co/3kpr6K8"><img src="https://i.ibb.co/wYS0Gtb/Captura-de-tela-de-2023-10-06-16-25-54.png" alt="ConfigurarChavesDiversas" border="0"></a><br>
+
+<p>Repositório padrão para guardar as chaves: ~/.ssh </p>
+<a href="https://ibb.co/jw8V1vW"><img src="https://i.ibb.co/Ks5N3jL/Captura-de-tela-de-2023-10-06-16-22-42.png" alt="Chaves" border="0"></a><br>
 
 
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
