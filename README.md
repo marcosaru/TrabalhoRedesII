@@ -11,7 +11,7 @@ SUMÁRIO
 2.1 - <a href="#grupo-de-gerentes" >GRUPO DOS GERENTES</a><br>
 2.1 - <a href="#grupo-cebola" >GRUPO CEBOLA </a><br>
 3 - <a href="#instancia">Instância utilizada</a><br>
-4 - <a href="#chaves">Chaves pública/privada</a><br>
+4 - <a href="#chave-publicaprivada">Chaves pública/privada</a><br>
 5 - <a href="#patches">Patches</a><br>
 6 - <a href="#apache2">Instalação Apache2</a><br>
 6.1 - <a href="#ca">Criação da CA</a><br>
@@ -44,7 +44,7 @@ SUMÁRIO
 
 <a href="https://ibb.co/BjcRQms"><img src="https://i.ibb.co/NptzJXY/Captura-de-tela-de-2023-10-06-11-47-12.png" alt="Cebola" border="0"></a>
 
-<h2 id="chaves"> Chaves pública/privada</h2><br>
+<h2 id="chave-publicaprivada"> Chaves pública/privada</h2><br>
 <p>Configuração necessária para conseguir ler todas as chaves:</p>
 <a href="https://ibb.co/3kpr6K8"><img src="https://i.ibb.co/wYS0Gtb/Captura-de-tela-de-2023-10-06-16-25-54.png" alt="ConfigurarChavesDiversas" border="0"></a><br>
 
