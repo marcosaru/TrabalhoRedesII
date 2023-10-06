@@ -11,7 +11,7 @@ SUMÁRIO
 2.1 - <a href="#grupo-de-gerentes" >GRUPO DOS GERENTES</a><br>
 2.1 - <a href="#grupo-cebola" >GRUPO CEBOLA </a><br>
 3 - <a href="#instancia">Instância utilizada</a><br>
-4 - <a href="#chave-publicaprivada">Chaves pública/privada</a><br>
+4 - <a href="#-chaves-públicaprivada">Chaves pública/privada</a><br>
 5 - <a href="#patches">Patches</a><br>
 6 - <a href="#apache2">Instalação Apache2</a><br>
 6.1 - <a href="#ca">Criação da CA</a><br>
