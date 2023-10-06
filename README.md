@@ -8,6 +8,20 @@ SUMÁRIO
 2 - <a href="#grupos">GRUPOS</a><br>
 2.1 - <a href="#grupo-de-gerentes" >GRUPO DOS GERENTES</a><br>
 2.1 - <a href="#grupo-cebola" >GRUPO CEBOLA </a><br>
+3 - <a href="#instancia">Instância utilizada</a><br>
+4 - <a href="#chaves">Chaves pública/privada</a><br>
+5 - <a href="#patches">Patches</a><br>
+6 - <a href="#apache2">Instalação Apache2</a><br>
+6.1 - <a href="#ca">Criação da CA</a><br>
+7 - <a href="#firewall">Configuração no firewall</a><br>
+7.1 - <a href="#firewallInst">Configuração no firewall da instância</a><br>
+8 - <a href="#restricoes">Restrições de acessos</a><br>
+9 - <a href="#mac">Controle MAC</a><br>
+10 - <a href="#tecnicas">Escolha das técnicas de segurança</a><br>
+11 - <a href="#logs">Logs do servidor</a><br>
+11.1 - <a href="#logsapache">Logs Apache</a><br>
+12 - <a href="#NTP">Protocolo NTP</a><br>
+
 <h1>Questão 2</h1>
 
 <a  href="https://ibb.co/FDbrgbw"><img src="https://i.ibb.co/CH5ch57/Captura-de-tela-de-2023-10-06-11-38-18.png" alt="Como montar grupos" border="0" /></a>
