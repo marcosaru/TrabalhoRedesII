@@ -24,8 +24,11 @@ SUMÁRIO
 11.1 - <a href="#logsapache">Logs Apache</a><br>
 12 - <a href="#NTP">Protocolo NTP</a><br>
 
-<h1>Questão 2</h1>
-Responsável: Marcos.
+<h2 id="MFA">MFA</h2><br>
+<a href="https://ibb.co/xsBd5XJ"><img src="https://i.ibb.co/DbvTKz5/Captura-de-tela-de-2023-10-07-12-33-52.png" alt="Captura-de-tela-de-2023-10-07-12-33-52" border="0"></a>
+<br>
+<h2>Questão 2</h2><br>
+Responsável: Marcos.<br>
 <a  href="https://ibb.co/FDbrgbw"><img src="https://i.ibb.co/CH5ch57/Captura-de-tela-de-2023-10-06-11-38-18.png" alt="Como montar grupos" border="0" /></a>
 
 
