@@ -42,13 +42,16 @@ Responsável: Marcos.
 Responsável: Marcos.
 
 <a href="https://ibb.co/R4VQx7R"><img src="https://i.ibb.co/CsTVkWR/Captura-de-tela-de-2023-10-06-11-45-18.png" alt="Gerentes" border="0"></a>
-
+<a href="https://ibb.co/VM8DnTY"><img src="https://i.ibb.co/2cBPVd3/Captura-de-tela-de-2023-10-10-18-51-14.png" alt="Captura-de-tela-de-2023-10-10-18-51-14" border="0"></a>
+<a href="https://ibb.co/DbkmkkG"><img src="https://i.ibb.co/xsGwGGm/Captura-de-tela-de-2023-10-10-18-51-24.png" alt="Captura-de-tela-de-2023-10-10-18-51-24" border="0"></a>
 
 
 <h2 id= "#grupo-cebola">Grupo Cebola</h2>
 Responsável: Marcos.
 
 <a href="https://ibb.co/BjcRQms"><img src="https://i.ibb.co/NptzJXY/Captura-de-tela-de-2023-10-06-11-47-12.png" alt="Cebola" border="0"></a>
+<a href="https://ibb.co/dWf2LgB"><img src="https://i.ibb.co/Pmrh9Qx/Captura-de-tela-de-2023-10-10-18-54-44.png" alt="Captura-de-tela-de-2023-10-10-18-54-44" border="0"></a>
+<a href="https://ibb.co/L6CZC1M"><img src="https://i.ibb.co/NpLyLKX/Captura-de-tela-de-2023-10-10-18-54-56.png" alt="Captura-de-tela-de-2023-10-10-18-54-56" border="0"></a>
 
 <h2 id="chave-publicaprivada"> Chaves pública/privada</h2><br>
 Responsável: Marcos.<br>
