@@ -63,6 +63,10 @@ Responsável: Marcos.<br>
 <a href="https://ibb.co/jw8V1vW"><img src="https://i.ibb.co/Ks5N3jL/Captura-de-tela-de-2023-10-06-16-22-42.png" alt="Chaves" border="0"></a><br>
 Responsável: Marcos.
 
+<p>Atualizado o Sevidor pela VM</p>
+<a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a>
+Responsável: Everton
+
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
 
