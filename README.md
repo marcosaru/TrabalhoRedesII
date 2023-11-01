@@ -66,7 +66,7 @@ Responsável: Marcos.
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
 
-<a href="https://ibb.co/2cRy8tR"><img src="https://i.ibb.co/xzwDmjw/Captura-de-tela-de-2023-10-06-15-13-12.png" alt="Captura-de-tela-de-2023-10-06-15-13-12" border="0"></a>
+<a href="https://ibb.co/Y7C27rh"><img src="https://i.ibb.co/JR1nRhH/Captura-de-tela-de-2023-11-01-11-53-24.png" alt="Captura-de-tela-de-2023-11-01-11-53-24" border="0"></a>
 
 Usuario root: Marcos
 
