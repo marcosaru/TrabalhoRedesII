@@ -60,8 +60,7 @@ Responsável: Marcos.<br>
 <a href="https://ibb.co/3kpr6K8"><img src="https://i.ibb.co/wYS0Gtb/Captura-de-tela-de-2023-10-06-16-25-54.png" alt="ConfigurarChavesDiversas" border="0"></a><br>
 
 <p>Repositório padrão para guardar as chaves: ~/.ssh </p>
-<a href="https://ibb.co/jw8V1vW"><img src="https://i.ibb.co/Ks5N3jL/Captura-de-tela-de-2023-10-06-16-22-42.png" alt="Chaves" border="0"></a><br>
-Responsável: Marcos.
+
 
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
