@@ -69,6 +69,8 @@ Responsável: Everton
 <p>Implementação e Ativação do Apache2; pela VM</p>
 <a href="https://ibb.co/HVs8Xrd"><img src="https://i.ibb.co/bPZ97rJ/Captura-de-tela-2023-10-31-instalando-o-apache.png" alt="Captura-de-tela-2023-10-31-instalando-o-apache" border="0"></a>
 <a href="https://ibb.co/Gcm20Gr"><img src="https://i.ibb.co/Ypgk3JV/Captura-de-tela-2023-10-31-ativando-o-apache.png" alt="Captura-de-tela-2023-10-31-ativando-o-apache" border="0"></a>
+<p>Chrony User padrão rodando</p>
+<a href="https://ibb.co/LrrFv5Y"><img src="https://i.ibb.co/T11frLY/verificar-o-que-essa-porta-323.png" alt="verificar-o-que-essa-porta-323" border="0"></a>
 Responsavel: Everton
 
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
