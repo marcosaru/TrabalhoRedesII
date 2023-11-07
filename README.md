@@ -74,12 +74,14 @@ Responsavel: Everton
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
 
+
 <p>Configuração Firewall da instancia<p> 
 <a href="https://ibb.co/Kw8dJGs"><img src="https://i.ibb.co/RyJfqS6/Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3.jpg" alt="Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3" border="0"></a>
   
 <p>Verificação do status <p>
 <a href="https://ibb.co/Y7C27rh"><img src="https://i.ibb.co/JR1nRhH/Captura-de-tela-de-2023-11-01-11-53-24.png" alt="Captura-de-tela-de-2023-11-01-11-53-24" border="0"></a>
 
+<p>Responsável: Vitória <p>
 Usuario root: Marcos
 
 Criador da instância: Marcos
