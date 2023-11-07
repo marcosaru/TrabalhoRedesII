@@ -41,7 +41,7 @@ Responsável: Marcos.
 <h2 id="grupo-de-gerentes">Grupo de Gerentes</h2>
 Responsável: Marcos.
 
-<a href="https://ibb.co/R4VQx7R"><img src="https://i.ibb.co/CsTVkWR/Captura-de-tela-de-2023-10-06-11-45-18.png" alt="Gerentes" border="0"></a>
+<a href="https://ibb.co/B4cqr5f"><img src="https://i.ibb.co/z8QG7Tm/Captura-de-tela-de-2023-11-06-08-07-51.png" alt="Captura-de-tela-de-2023-11-06-08-07-51" border="0"></a>
 <a href="https://ibb.co/VM8DnTY"><img src="https://i.ibb.co/2cBPVd3/Captura-de-tela-de-2023-10-10-18-51-14.png" alt="Captura-de-tela-de-2023-10-10-18-51-14" border="0"></a>
 <a href="https://ibb.co/DbkmkkG"><img src="https://i.ibb.co/xsGwGGm/Captura-de-tela-de-2023-10-10-18-51-24.png" alt="Captura-de-tela-de-2023-10-10-18-51-24" border="0"></a>
 
@@ -49,7 +49,7 @@ Responsável: Marcos.
 <h2 id= "#grupo-cebola">Grupo Cebola</h2>
 Responsável: Marcos.
 
-<a href="https://ibb.co/BjcRQms"><img src="https://i.ibb.co/NptzJXY/Captura-de-tela-de-2023-10-06-11-47-12.png" alt="Cebola" border="0"></a>
+<a href="https://ibb.co/dPjqFNj"><img src="https://i.ibb.co/n76v9X6/Captura-de-tela-de-2023-11-06-08-10-02.png" alt="Captura-de-tela-de-2023-11-06-08-10-02" border="0"></a>
 <a href="https://ibb.co/dWf2LgB"><img src="https://i.ibb.co/Pmrh9Qx/Captura-de-tela-de-2023-10-10-18-54-44.png" alt="Captura-de-tela-de-2023-10-10-18-54-44" border="0"></a>
 <a href="https://ibb.co/L6CZC1M"><img src="https://i.ibb.co/NpLyLKX/Captura-de-tela-de-2023-10-10-18-54-56.png" alt="Captura-de-tela-de-2023-10-10-18-54-56" border="0"></a>
 
@@ -60,8 +60,7 @@ Responsável: Marcos.<br>
 <a href="https://ibb.co/3kpr6K8"><img src="https://i.ibb.co/wYS0Gtb/Captura-de-tela-de-2023-10-06-16-25-54.png" alt="ConfigurarChavesDiversas" border="0"></a><br>
 
 <p>Repositório padrão para guardar as chaves: ~/.ssh </p>
-<a href="https://ibb.co/jw8V1vW"><img src="https://i.ibb.co/Ks5N3jL/Captura-de-tela-de-2023-10-06-16-22-42.png" alt="Chaves" border="0"></a><br>
-Responsável: Marcos.
+
 
 <p>Atualizado o Sevidor pela VM</p>
 <a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a>
@@ -75,7 +74,7 @@ Responsavel: Everton
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
 
-<a href="https://ibb.co/2cRy8tR"><img src="https://i.ibb.co/xzwDmjw/Captura-de-tela-de-2023-10-06-15-13-12.png" alt="Captura-de-tela-de-2023-10-06-15-13-12" border="0"></a>
+<a href="https://ibb.co/Y7C27rh"><img src="https://i.ibb.co/JR1nRhH/Captura-de-tela-de-2023-11-01-11-53-24.png" alt="Captura-de-tela-de-2023-11-01-11-53-24" border="0"></a>
 
 Usuario root: Marcos
 
