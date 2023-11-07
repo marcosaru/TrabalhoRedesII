@@ -62,6 +62,15 @@ Responsável: Marcos.<br>
 <p>Repositório padrão para guardar as chaves: ~/.ssh </p>
 
 
+<p>Atualizado o Sevidor pela VM</p>
+<a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a>
+Responsável: Everton
+
+<p>Implementação e Ativação do Apache2; pela VM</p>
+<a href="https://ibb.co/HVs8Xrd"><img src="https://i.ibb.co/bPZ97rJ/Captura-de-tela-2023-10-31-instalando-o-apache.png" alt="Captura-de-tela-2023-10-31-instalando-o-apache" border="0"></a>
+<a href="https://ibb.co/Gcm20Gr"><img src="https://i.ibb.co/Ypgk3JV/Captura-de-tela-2023-10-31-ativando-o-apache.png" alt="Captura-de-tela-2023-10-31-ativando-o-apache" border="0"></a>
+Responsavel: Everton
+
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
 
