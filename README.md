@@ -85,10 +85,16 @@ Responsável: Marcos.
 <a href="https://ibb.co/Kw8dJGs"><img src="https://i.ibb.co/RyJfqS6/Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3.jpg" alt="Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3" border="0"></a>
   
 <p>Responsável: Vitória <p>
-Usuario root: Marcos
+
+
+<h2 id="mac">MAC</h2>
+<p>Problema para ativar SELinux</p>
+<a href="https://ibb.co/4W22MjC"><img src="https://i.ibb.co/fM99tCZ/Captura-de-tela-de-2023-11-12-16-18-21.png" alt="Captura-de-tela-de-2023-11-12-16-18-21" border="0"></a>
+
+<p>Tutorial seguido:</p>
+https://docs.rockylinux.org/guides/security/learning_selinux/#operating-modes
+
+
 
 Criador da instância: Marcos
-
-Ativação do firewall: Everton
-
-
+Usuario root: Marcos
