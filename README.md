@@ -81,6 +81,10 @@ Responsavel: Everton
 <p>criação do certificado SSL</p>
 <a href="https://ibb.co/4TKTVRB"><img src="https://i.ibb.co/Z8G8Mzy/CertSSL.png" alt="CertSSL" border="0"></a>
 
+<p>Configuração do apache para ler o certificado SSL</p>
+<a href="https://ibb.co/7XvT87L"><img src="https://i.ibb.co/wRyb3Dj/conf-Apache.png" alt="conf-Apache" border="0"></a>
+
+<br>
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
 
