@@ -75,8 +75,11 @@ Responsavel: Everton
 
 <h2 id"#ca">CA</h2>
 <p>Material utilizado: https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-tls-encryption-on-an-apache-http-server_setting-apache-http-server</p>
-<p>Material para chave: https://access.redhat.com/documentation/pt-br/red_hat_network_satellite/5.4/html/client_configuration_guide/s2-certificate-tool-ca-create</p>
+<p>Material para chave: https://access.redhat.com/documentation/pt-br/red_hat_network_satellite/5.4/html/client_configuration_guide/s2-certificate-tool-ca-create](https://docs.rockylinux.org/guides/security/ssl_keys_https/#generating-ssltls-keys</p>
 <a href="https://ibb.co/MPfDgGX"><img src="https://i.ibb.co/YfX7Nyr/Captura-de-tela-de-2023-11-13-08-27-55.png" alt="Captura-de-tela-de-2023-11-13-08-27-55" border="0"></a>
+
+<p>criação do certificado SSL</p>
+<a href="https://ibb.co/4TKTVRB"><img src="https://i.ibb.co/Z8G8Mzy/CertSSL.png" alt="CertSSL" border="0"></a>
 
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
 Responsável: Marcos.
