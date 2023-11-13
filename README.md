@@ -106,7 +106,26 @@ Responsável: Marcos.
 <p>Tutorial seguido:</p>
 https://docs.rockylinux.org/guides/security/learning_selinux/#operating-modes
 
+<h2 id="tecnicas">tecnicas</h2>
+<p>Foi escolhido junto com o professor as seguintes técnicas de segurança do CIS: </p>
+5.6 Ensure the Default CGI Content test-cgi Script Is Removed
+(Automated)
+Este item garanti que o script de teste CGI padrão test-cgi seja removido em um ambiente Apacha.
+Os scripts de teste CGI, como o test-cgi, são geralmente fornecidos como exemplos para demonstrar a funcionalidade do servidor web, mas podem representar riscos de segurança significativos se não forem removidos ou desabilitados em ambientes de produção.
+As principais preocupações são: revelação de informações sensíveis, potencial para exploração, ameaças contra a integridade e confidencialidade...
 
+5.7 Ensure HTTP Request Methods Are Restricted (Automated)
+Este tópico visa restringir os métodos de solicitação HTTP desnecessários em um servidor Apache no Red Hat. O objetivo é permitir apenas os métodos GET, HEAD, POST e OPTIONS. 
+motivação para tal restrição é como PUT e DELETE são considerados de alto risco e raramente usados devem ser desativados.
+
+5.8 Ensure the HTTP TRACE Method Is Disabled (Automated) (implementação bônus)
+Esse tópico explorado visa desabilitar o método HTTP TRACE no servidor Apache no Red Hat.
+O método TRACE, destinado a fins de diagnóstico, não é necessário e é suscetível a abusos, portanto, deve ser desativado por questões de segurança.
+
+Comprovação da pasta onde contém os scripts limpa:<br>
+<a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0"></a>
+
+//TODO - DOCUMENTAR 5.7 e 5.8 (antes confirmar com o professor os sites habilitados deixar separados ou juntos no mesmo arquivo)
 
 Criador da instância: Marcos
 Usuario root: Marcos
