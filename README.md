@@ -55,37 +55,33 @@ Responsável: Marcos.
 
 <h2 id="chave-publicaprivada"> Chaves pública/privada</h2><br>
 Responsável: Marcos.<br>
-
-<p>Configuração necessária para conseguir ler todas as chaves:</p>
-<a href="https://ibb.co/3kpr6K8"><img src="https://i.ibb.co/wYS0Gtb/Captura-de-tela-de-2023-10-06-16-25-54.png" alt="ConfigurarChavesDiversas" border="0"></a><br>
-
 <p>Repositório padrão para guardar as chaves: ~/.ssh </p>
 
 
 <p>Atualizado o Sevidor pela VM</p>
-<a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a>
+<a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a><br>
 Responsável: Everton
-
-<p>Implementação e Ativação do Apache2; pela VM</p>
+<br>
+<p>Implementação e Ativação do Apache2; pela VM</p><br>
 <a href="https://ibb.co/HVs8Xrd"><img src="https://i.ibb.co/bPZ97rJ/Captura-de-tela-2023-10-31-instalando-o-apache.png" alt="Captura-de-tela-2023-10-31-instalando-o-apache" border="0"></a>
-<a href="https://ibb.co/Gcm20Gr"><img src="https://i.ibb.co/Ypgk3JV/Captura-de-tela-2023-10-31-ativando-o-apache.png" alt="Captura-de-tela-2023-10-31-ativando-o-apache" border="0"></a>
-<p>Chrony User padrão rodando</p>
-<a href="https://ibb.co/LrrFv5Y"><img src="https://i.ibb.co/T11frLY/verificar-o-que-essa-porta-323.png" alt="verificar-o-que-essa-porta-323" border="0"></a>
+<a href="https://ibb.co/Gcm20Gr"><img src="https://i.ibb.co/Ypgk3JV/Captura-de-tela-2023-10-31-ativando-o-apache.png" alt="Captura-de-tela-2023-10-31-ativando-o-apache" border="0"></a><br>
+<p>Chrony User padrão rodando</p><br>
+<a href="https://ibb.co/LrrFv5Y"><img src="https://i.ibb.co/T11frLY/verificar-o-que-essa-porta-323.png" alt="verificar-o-que-essa-porta-323" border="0"></a><br>
 Responsavel: Everton
+<br>
+<h2 id"#ca">Criação da chave privada e criação do certificado auto assinado</h2>
+<p>Material utilizado: https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-tls-encryption-on-an-apache-http-server_setting-apache-http-server</p><br>
+<p>Material para chave: https://access.redhat.com/documentation/pt-br/red_hat_network_satellite/5.4/html/client_configuration_guide/s2-certificate-tool-ca-create](https://docs.rockylinux.org/guides/security/ssl_keys_https/#generating-ssltls-keys</p><br>
+<a href="https://ibb.co/MPfDgGX"><img src="https://i.ibb.co/YfX7Nyr/Captura-de-tela-de-2023-11-13-08-27-55.png" alt="Captura-de-tela-de-2023-11-13-08-27-55" border="0"></a><br>
 
-<h2 id"#ca">CA</h2>
-<p>Material utilizado: https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-tls-encryption-on-an-apache-http-server_setting-apache-http-server</p>
-<p>Material para chave: https://access.redhat.com/documentation/pt-br/red_hat_network_satellite/5.4/html/client_configuration_guide/s2-certificate-tool-ca-create](https://docs.rockylinux.org/guides/security/ssl_keys_https/#generating-ssltls-keys</p>
-<a href="https://ibb.co/MPfDgGX"><img src="https://i.ibb.co/YfX7Nyr/Captura-de-tela-de-2023-11-13-08-27-55.png" alt="Captura-de-tela-de-2023-11-13-08-27-55" border="0"></a>
-
-<p>criação do certificado SSL</p>
+<p>criação do certificado SSL</p><br>
 <a href="https://ibb.co/4TKTVRB"><img src="https://i.ibb.co/Z8G8Mzy/CertSSL.png" alt="CertSSL" border="0"></a>
 
-<p>Configuração do apache para ler o certificado SSL</p>
+<p>Configuração do apache para ler o certificado SSL</p><br>
 <a href="https://ibb.co/7XvT87L"><img src="https://i.ibb.co/wRyb3Dj/conf-Apache.png" alt="conf-Apache" border="0"></a>
 
 <br>
-<h2 id= "#firewallInst"> Configuração do Firewall da infra</h2>
+<h2 id= "#firewallInst"> Configuração do Firewall da infra</h2><br>
 Responsável: Marcos.
 
 
