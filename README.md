@@ -119,9 +119,10 @@ Esse tópico explorado visa desabilitar o método HTTP TRACE no servidor Apache 
 O método TRACE, destinado a fins de diagnóstico, não é necessário e é suscetível a abusos, portanto, deve ser desativado por questões de segurança.<br>
 
 Comprovação da pasta onde contém os scripts limpa:<br>
-<a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0"></a>
-
-//TODO - DOCUMENTAR 5.7 e 5.8 (antes confirmar com o professor os sites habilitados deixar separados ou juntos no mesmo arquivo)
+<a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0"></a><br>
+<br>
+Comprovação da implementação:<br>
+<a href="https://ibb.co/26FjxH4"><img src="https://i.ibb.co/9vpq6S5/impl.png" alt="impl" border="0"></a>
 
 Criador da instância: Marcos
 Usuario root: Marcos
