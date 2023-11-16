@@ -82,14 +82,11 @@ Responsavel: Everton
 
 <br>
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2><br>
-Responsável: Marcos.
+Responsável: Marcos.<br>
+<a href="https://ibb.co/GJj2XqW"><img src="https://i.ibb.co/wL1WTfS/firewallazure.png" alt="firewallazure" border="0"></a>
 
-
-<p>Configuração Firewall da instancia<p> 
-<a href="https://ibb.co/Y7C27rh"><img src="https://i.ibb.co/JR1nRhH/Captura-de-tela-de-2023-11-01-11-53-24.png" alt="Captura-de-tela-de-2023-11-01-11-53-24" border="0"></a>
-
-  
-<p>Verificação do status <p>
+  <br>
+<p>Verificação do status <p><br>
 <a href="https://ibb.co/Kw8dJGs"><img src="https://i.ibb.co/RyJfqS6/Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3.jpg" alt="Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3" border="0"></a>
   
 <p>Responsável: Vitória <p>
@@ -135,7 +132,7 @@ Esse tópico explorado visa desabilitar o método HTTP TRACE no servidor Apache 
 O método TRACE, destinado a fins de diagnóstico, não é necessário e é suscetível a abusos, portanto, deve ser desativado por questões de segurança.<br>
 
 Comprovação da pasta onde contém os scripts limpa:<br>
-<a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0"></a><br>
+<a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0" style="width: 100; height: auto;"></a><br>
 <br>
 Comprovação da implementação:<br>
 <a href="https://ibb.co/26FjxH4"><img src="https://i.ibb.co/9vpq6S5/impl.png" alt="impl" border="0"></a>
