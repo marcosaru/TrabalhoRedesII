@@ -104,15 +104,16 @@ https://docs.rockylinux.org/guides/security/learning_selinux/#operating-modes<br
 
 <p>Correções aplicadas diretamente no GRUB2, foi necessário editar o arquivo de boot para o SELinux ser carregado no sistema. Após este passo o SELinux bloqueou as conexões SSH na porta 22.</p><br>
 <a href="https://ibb.co/xGs2LY7"><img src="https://i.ibb.co/d6cfMt5/SELinux.png" alt="SELinux" border="0" /></a>
+
 <br>
 Material utilizado: https://docs.fedoraproject.org/en-US/quick-docs/grub2-bootloader<br>
 <p>Para resolver o bloqueio da porta 22, foi utilizado o CLI da azure com o seguinte script:</p><br>
 
-az vm run-command invoke \<br>
-  --resource-group RockLinux_group \<br>
-  --name RockLinux \<br>
-  --command-id RunShellScript \<br>
-  --scripts "setenforce 0"<br>
+az vm run-command invoke \         <br>
+  --resource-group RockLinux_group \         <br>
+  --name RockLinux \       <br>
+  --command-id RunShellScript \         <br>
+  --scripts "setenforce 0"  <br>
   
   <br>
 
