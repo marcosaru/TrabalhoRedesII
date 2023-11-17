@@ -71,14 +71,15 @@ Responsavel: Everton
 <br>
 <h2 id"#ca">Criação da chave privada e criação do certificado auto assinado</h2>
 <p>Material utilizado: https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-tls-encryption-on-an-apache-http-server_setting-apache-http-server</p><br>
-<p>Material para chave: https://access.redhat.com/documentation/pt-br/red_hat_network_satellite/5.4/html/client_configuration_guide/s2-certificate-tool-ca-create](https://docs.rockylinux.org/guides/security/ssl_keys_https/#generating-ssltls-keys</p><br>
+<p>Material para chave: https://docs.rockylinux.org/guides/security/ssl_keys_https/#generating-ssltls-keys</p><br>
+instalação do modulo SSL:<br>
 <a href="https://ibb.co/MPfDgGX"><img src="https://i.ibb.co/YfX7Nyr/Captura-de-tela-de-2023-11-13-08-27-55.png" alt="Captura-de-tela-de-2023-11-13-08-27-55" border="0"></a><br>
 
-<p>criação do certificado SSL</p><br>
-<a href="https://ibb.co/4TKTVRB"><img src="https://i.ibb.co/Z8G8Mzy/CertSSL.png" alt="CertSSL" border="0"></a>
-
+<p>Criação do certificado SSL</p><br>
+<a href="https://ibb.co/6YVLdxr"><img src="https://i.ibb.co/H713JsB/Captura-de-tela-de-2023-11-17-13-02-40.png" alt="Captura-de-tela-de-2023-11-17-13-02-40" border="0"></a>
+<br>
 <p>Configuração do apache para ler o certificado SSL</p><br>
-<a href="https://ibb.co/7XvT87L"><img src="https://i.ibb.co/wRyb3Dj/conf-Apache.png" alt="conf-Apache" border="0"></a>
+<a href="https://ibb.co/CKrjrw9"><img src="https://i.ibb.co/m5xnxRy/Captura-de-tela-de-2023-11-17-12-53-27.png" alt="Captura-de-tela-de-2023-11-17-12-53-27" border="0"></a>
 
 <br>
 <h2 id= "#firewallInst"> Configuração do Firewall da infra</h2><br>
@@ -136,6 +137,7 @@ Comprovação da pasta onde contém os scripts limpa:<br>
 <br>
 Comprovação da implementação:<br>
 <a href="https://ibb.co/26FjxH4"><img src="https://i.ibb.co/9vpq6S5/impl.png" alt="impl" border="0"></a>
-
+<br>
+<a href="https://ibb.co/CKrjrw9"><img src="https://i.ibb.co/m5xnxRy/Captura-de-tela-de-2023-11-17-12-53-27.png" alt="Captura-de-tela-de-2023-11-17-12-53-27" border="0"></a>
 Criador da instância: Marcos
 Usuario root: Marcos
