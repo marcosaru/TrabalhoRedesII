@@ -106,7 +106,7 @@ Responsável: Marcos.<br>
 <a href="https://ibb.co/4W22MjC"><img src="https://i.ibb.co/fM99tCZ/Captura-de-tela-de-2023-11-12-16-18-21.png" alt="Captura-de-tela-de-2023-11-12-16-18-21" border="0"></a><br>
 
 <p>Tutorial seguido:</p><br>
-https://docs.rockylinux.org/guides/security/learning_selinux/#operating-modes<br>
+<p>https://docs.rockylinux.org/guides/security/learning_selinux/#operating-modes</p><br>
 
 <p>Correções aplicadas diretamente no GRUB2, foi necessário editar o arquivo de boot para o SELinux ser carregado no sistema. Após este passo o SELinux bloqueou as conexões SSH na porta 22.</p><br>
 <a href="https://ibb.co/xGs2LY7"><img src="https://i.ibb.co/d6cfMt5/SELinux.png" alt="SELinux" border="0" /></a>
@@ -126,19 +126,20 @@ Material utilizado: https://docs.fedoraproject.org/en-US/quick-docs/grub2-bootlo
 
 <h2 id="tecnicas">9 - Técnicas </h2>
 <p>Foi escolhido junto com o professor as seguintes técnicas de segurança do CIS: </p>
-5.6 Ensure the Default CGI Content test-cgi Script Is Removed
+
+<p>5.6 Ensure the Default CGI Content test-cgi Script Is Removed
 (Automated)<br>
 Este item garante que o script de teste CGI padrão 'test-cgi' seja removido do ambiente Apache.<br>
 Os scripts de teste CGI, como o test-cgi, são geralmente fornecidos como exemplos para demonstrar a funcionalidade do servidor web, mas podem representar riscos de segurança significativos se não forem removidos ou desabilitados em ambientes de produção.<br>
-As principais preocupações são: revelação de informações sensíveis, potencial para exploração, ameaças contra a integridade e confidencialidade...<br>
+As principais preocupações são: revelação de informações sensíveis, potencial para exploração, ameaças contra a integridade e confidencialidade...</p><br>
 
-5.7 Ensure HTTP Request Methods Are Restricted (Automated)<br>
+<p>5.7 Ensure HTTP Request Methods Are Restricted (Automated)<br>
 Este tópico visa restringir os métodos de solicitação HTTP desnecessários em um servidor Apache. O objetivo é permitir apenas os métodos GET, HEAD, POST e OPTIONS. <br>
-motivação para tal restrição: PUT e DELETE são considerados de alto risco e raramente usados, ou seja, devem ser desativados.<br>
+motivação para tal restrição: PUT e DELETE são considerados de alto risco e raramente usados, ou seja, devem ser desativados.</p><br>
 
-5.8 Ensure the HTTP TRACE Method Is Disabled (Automated) (implementação bônus)<br>
+<p>5.8 Ensure the HTTP TRACE Method Is Disabled (Automated) (implementação bônus)<br>
 Esse tópico explorado visa desabilitar o método HTTP TRACE no servidor Apache no Red Hat.<br>
-O método TRACE, destinado a fins de diagnóstico, não é necessário e é suscetível a abusos, portanto, deve ser desativado por questões de segurança.<br>
+O método TRACE, destinado a fins de diagnóstico, não é necessário e é suscetível a abusos, portanto, deve ser desativado por questões de segurança.</p><br>
 
 Comprovação da pasta onde contém os scripts limpa:<br>
 <a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0" style="width: 100; height: auto;"></a><br>
