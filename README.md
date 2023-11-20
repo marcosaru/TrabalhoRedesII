@@ -94,14 +94,13 @@ instalação do modulo SSL:<br>
 <a href="https://ibb.co/Kw8dJGs"><img src="https://i.ibb.co/RyJfqS6/Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3.jpg" alt="Imagem-do-Whats-App-de-2023-10-31-s-19-58-28-c441f7d3" border="0"></a>
   <br>
 <p>Responsável: Vitória <p>
+<br><code><a  href="#sumario"> VOLTAR</a></code>
+
 <h2 id= "firewallInst">7.1 - Configuração do Firewall da infra</h2><br>
 Responsável: Marcos.<br>
 <a href="https://ibb.co/GJj2XqW"><img src="https://i.ibb.co/wL1WTfS/firewallazure.png" alt="firewallazure" border="0"></a>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
-  <br>
-
-
-<br><code><a  href="#sumario"> VOLTAR</a></code>
+  
 <h2 id="mac">8 - MAC (Controle de acesso mandatório - SELinux)</h2>
 <p>8.1 - Problema para ativar SELinux</p><br>
 <a href="https://ibb.co/4W22MjC"><img src="https://i.ibb.co/fM99tCZ/Captura-de-tela-de-2023-11-12-16-18-21.png" alt="Captura-de-tela-de-2023-11-12-16-18-21" border="0"></a><br>
@@ -116,12 +115,12 @@ https://docs.rockylinux.org/guides/security/learning_selinux/#operating-modes<br
 Material utilizado: https://docs.fedoraproject.org/en-US/quick-docs/grub2-bootloader<br>
 <p>Para resolver o bloqueio da porta 22, foi utilizado o CLI da azure com o seguinte script:</p><br>
 
-az vm run-command invoke \         <br>
+<code>az vm run-command invoke \         <br>
   --resource-group RockLinux_group \         <br>
   --name RockLinux \       <br>
   --command-id RunShellScript \         <br>
   --scripts "setenforce 0"  <br>
-  
+</code>  
   <br>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 
