@@ -149,3 +149,6 @@ Comprovação da implementação:<br>
 <br>
 <a href="https://ibb.co/CKrjrw9"><img src="https://i.ibb.co/m5xnxRy/Captura-de-tela-de-2023-11-17-12-53-27.png" alt="Captura-de-tela-de-2023-11-17-12-53-27" border="0"></a>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
+
+<h2 id="logs">Logsss</h2>
+<p>Tópico "A" </p>
