@@ -58,10 +58,11 @@ Responsável: Marcos.
 <h2 id="instancia">3 - Instancia utilizada</h2><br>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/hY6hy75/Captura-de-tela-de-2023-11-19-21-38-35.png" alt="Captura-de-tela-de-2023-11-19-21-38-35" border="0"></a>
 <br>
+<p>O Sistema Operacional escolhido foi o rock linux, devido ao seu código fonte ser o mesmo que o Red Hat. Um sistema robusto.</p>
 <h2 id="keypub">4 - Chaves pública/privada</h2><br>
 Responsável: Marcos.<br>
 <p>Repositório padrão para guardar as chaves: ~/.ssh </p>
-
+<p>Foram criadas três chaves ssh, uma para cada membro da equipe.</p>
 <code><a  href="#sumario"> VOLTAR</a></code>
 <h2 id="patches">5 - Atualizado do Sevidor</h2>
 <a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a><br>
@@ -99,6 +100,7 @@ instalação do modulo SSL:<br>
 <h2 id= "firewallInst">7.1 - Configuração do Firewall da infra</h2><br>
 Responsável: Marcos.<br>
 <a href="https://ibb.co/GJj2XqW"><img src="https://i.ibb.co/wL1WTfS/firewallazure.png" alt="firewallazure" border="0"></a>
+<p>A configuração de liberação </p>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
   
 <h2 id="mac">8 - MAC (Controle de acesso mandatório - SELinux)</h2>
