@@ -70,11 +70,13 @@ Responsável: Everton
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 <br>
 <h2 id="apache2">6 - Instalação do Apache2</h2><br><code>
+<p>O Apache2 foi escolhido, principalmente, por ser um software de código aberto, ser estável e confiavél além de suportar protocolos variados(Como o HTTP e o HTTPS)</p>
 <a href="https://ibb.co/HVs8Xrd"><img src="https://i.ibb.co/bPZ97rJ/Captura-de-tela-2023-10-31-instalando-o-apache.png" alt="Captura-de-tela-2023-10-31-instalando-o-apache" border="0"></a>
 <a href="https://ibb.co/Gcm20Gr"><img src="https://i.ibb.co/Ypgk3JV/Captura-de-tela-2023-10-31-ativando-o-apache.png" alt="Captura-de-tela-2023-10-31-ativando-o-apache" border="0"></a><br>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 <p>Chrony User padrão rodando</p><br>
 <a href="https://ibb.co/LrrFv5Y"><img src="https://i.ibb.co/T11frLY/verificar-o-que-essa-porta-323.png" alt="verificar-o-que-essa-porta-323" border="0"></a><br>
+<P> O Chrony é uma implementação de protocolos de sincronização de tempo, como o NTP, e é usado para garantir uma precisão adequada nos relógios de computadores em uma rede</P>
 Responsavel: Everton
 <br>
 
@@ -181,4 +183,6 @@ Comprovação da implementação:<br>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 
 <h2 id="logs">Logsss</h2>
-<p>Tópico "A" </p>
+<p>Tópico "A" 30 Primeiros Logins de Autenticação</p>
+<P><a href="https://ibb.co/C0QQr0j"><img src="https://i.ibb.co/XJttwJn/30pri-logns.png" alt="30pri-logns" border="0"></a></P>
+<P>Tópico "B" Logs de Acesso do Servidor WEB</P>
