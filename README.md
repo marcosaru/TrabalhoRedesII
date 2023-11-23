@@ -100,7 +100,18 @@ instalação do modulo SSL:<br>
 <h2 id= "firewallInst">7.1 - Configuração do Firewall da infra</h2><br>
 Responsável: Marcos.<br>
 <a href="https://ibb.co/GJj2XqW"><img src="https://i.ibb.co/wL1WTfS/firewallazure.png" alt="firewallazure" border="0"></a>
-<p>A configuração de liberação </p>
+<p>As motivações para restringir o acesso a porta 22 da instância são: </p>
+<p>
+Restrição de Acesso: Limitar o acesso à porta 22 apenas ao seu IP significa que somente você, ou quem estiver conectado a partir do seu endereço IP específico, terá permissão para acessar o servidor via SSH. Isso reduz a superfície de ataque, tornando mais difícil para possíveis invasores tentarem ganhar acesso não autorizado.
+
+Princípio do Privilégio Mínimo: Conceder acesso somente a partir de endereços IP específicos reduz o risco de acesso não autorizado, uma vez que apenas dispositivos confiáveis podem se conectar.
+
+Proteção contra Ataques de Força Bruta: Limitar o acesso à porta 22 reduz a exposição a ataques de força bruta, nos quais um atacante tenta adivinhar a senha/chave privada ao tentar várias combinações. Ao restringir o acesso apenas ao seu IP, você reduz as oportunidades para esses ataques, tornando-os menos eficazes.
+
+Monitoramento Simplificado: Ao permitir o acesso somente a partir de um conjunto específico de endereços IP, o monitoramento de atividades suspeitas torna-se mais fácil. Se há tentativas de acesso de IPs não autorizados, isso pode indicar uma possível ameaça ou atividade maliciosa.
+</p>
+
+
 <br><code><a  href="#sumario"> VOLTAR</a></code>
   
 <h2 id="mac">8 - MAC (Controle de acesso mandatório - SELinux)</h2>
@@ -124,6 +135,23 @@ Material utilizado: https://docs.fedoraproject.org/en-US/quick-docs/grub2-bootlo
   --scripts "setenforce 0"  <br>
 </code>  
   <br>
+
+<p>O SELinux (Security-Enhanced Linux) é um conjunto de extensões de segurança para o kernel Linux que fornece um sistema avançado de controle de acesso obrigatório (MAC). A implementação do SELinux oferece várias vantagens em termos de segurança, e suas motivações incluem:</p>
+<p>
+Controle Acesso: O SELinux permite um controle muito grande sobre os acessos dos processos aos recursos do sistema. Ele vai além das permissões tradicionais de usuário e grupo, permitindo especificar políticas de acesso para processos individuais, arquivos e recursos do sistema.
+
+Princípio do Privilégio Mínimo: Assim como a restrição de acesso no firewall, o SELinux adere ao princípio do privilégio mínimo. Ele ajuda a limitar os privilégios concedidos a processos e usuários, reduzindo assim a superfície de ataque e minimizando o impacto de possíveis falhas de segurança.
+
+Prevenção de Exploração de Vulnerabilidades: O SELinux pode ajudar a prevenir a exploração de vulnerabilidades de segurança ao restringir as ações que processos comprometidos podem realizar. Isso dificulta a movimentação lateral de ataques, pois os invasores teriam que contornar as políticas de segurança do SELinux.
+
+Proteção contra Escalação de Privilégios: O SELinux desempenha um papel crucial na prevenção de escalonamento de privilégios. Mesmo se um invasor ganhar acesso inicial a um sistema, o SELinux pode limitar suas capacidades e impedir que ele aumente seus privilégios.
+
+Reforço da Segurança em Ambientes Compartilhados: Em ambientes onde vários usuários compartilham recursos do sistema, como servidores de hospedagem web compartilhados, o SELinux pode ser essencial para isolar os processos e garantir que cada usuário tenha apenas acesso aos recursos permitidos.
+
+Auditoria Avançada: O SELinux oferece recursos avançados de auditoria que permitem rastrear e analisar atividades suspeitas ou maliciosas no sistema. Isso é valioso para a detecção de ameaças e investigações de segurança.
+Em resumo, o SELinux é motivado por um foco aprimorado na segurança, proporcionando um nível mais elevado de controle e proteção contra ameaças e explorações de segurança.
+
+</p>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 
 <h2 id="tecnicas">9 - Técnicas </h2>
