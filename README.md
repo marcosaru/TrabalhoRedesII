@@ -99,7 +99,7 @@ instalação do modulo SSL:<br>
 
 <h2 id= "firewallInst">7.1 - Configuração do Firewall da infra</h2><br>
 Responsável: Marcos.<br>
-<a href="https://ibb.co/GJj2XqW"><img src="https://i.ibb.co/wL1WTfS/firewallazure.png" alt="firewallazure" border="0"></a>
+<a href="https://ibb.co/gSGnyqK"><img src="https://i.ibb.co/rxgWk8r/firewall-Infra.png" alt="firewall-Infra" border="0"></a>
 <p>As motivações para restringir o acesso a porta 22 da instância são: </p>
 <p>
 Restrição de Acesso: Limitar o acesso à porta 22 apenas ao seu IP significa que somente você, ou quem estiver conectado a partir do seu endereço IP específico, terá permissão para acessar o servidor via SSH. Isso reduz a superfície de ataque, tornando mais difícil para possíveis invasores tentarem ganhar acesso não autorizado.
@@ -172,7 +172,7 @@ Esse tópico explorado visa desabilitar o método HTTP TRACE no servidor Apache 
 O método TRACE, destinado a fins de diagnóstico, não é necessário e é suscetível a abusos, portanto, deve ser desativado por questões de segurança.</p><br>
 
 Comprovação da pasta onde contém os scripts limpa:<br>
-<a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0" style="width: 100; height: auto;"></a><br>
+<a href="https://ibb.co/Smxwn64"><img src="https://i.ibb.co/FYW4whL/CIS.png" alt="CIS" border="0"></a><br>
 <br>
 Comprovação da implementação:<br>
 <a href="https://ibb.co/26FjxH4"><img src="https://i.ibb.co/9vpq6S5/impl.png" alt="impl" border="0"></a>
