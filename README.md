@@ -88,7 +88,7 @@ instalação do modulo SSL:<br>
 <a href="https://ibb.co/6YVLdxr"><img src="https://i.ibb.co/H713JsB/Captura-de-tela-de-2023-11-17-13-02-40.png" alt="Captura-de-tela-de-2023-11-17-13-02-40" border="0"></a>
 <br>
 <p>Configuração do apache para ler o certificado SSL</p><br>
-<a href="https://ibb.co/CKrjrw9"><img src="https://i.ibb.co/m5xnxRy/Captura-de-tela-de-2023-11-17-12-53-27.png" alt="Captura-de-tela-de-2023-11-17-12-53-27" border="0"></a>
+<a href="https://ibb.co/sWJckGd"><img src="https://i.ibb.co/FHqcNML/https.png" alt="https" border="0"></a>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 <br>
 <h2 id="firewall">7 - Instalação Firewall </h2><br>
