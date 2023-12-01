@@ -175,7 +175,7 @@ Comprovação da pasta onde contém os scripts limpa:<br>
 <a href="https://ibb.co/Smxwn64"><img src="https://i.ibb.co/FYW4whL/CIS.png" alt="CIS" border="0"></a><br>
 <br>
 Comprovação da implementação:<br>
-<a href="https://ibb.co/26FjxH4"><img src="https://i.ibb.co/9vpq6S5/impl.png" alt="impl" border="0"></a>
+<a href="https://ibb.co/p2h8bvM"><img src="https://i.ibb.co/9nZLc91/http.png" alt="http" border="0"></a>
 <br>
-<a href="https://ibb.co/CKrjrw9"><img src="https://i.ibb.co/m5xnxRy/Captura-de-tela-de-2023-11-17-12-53-27.png" alt="Captura-de-tela-de-2023-11-17-12-53-27" border="0"></a>
+<a href="https://ibb.co/sWJckGd"><img src="https://i.ibb.co/FHqcNML/https.png" alt="https" border="0"></a>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
