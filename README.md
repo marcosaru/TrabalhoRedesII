@@ -63,6 +63,16 @@ Responsável: Marcos.
 Responsável: Marcos.<br>
 <p>Repositório padrão para guardar as chaves: ~/.ssh </p>
 <p>Foram criadas três chaves ssh, uma para cada membro da equipe.</p>
+
+<p>Configuração para desabilitar o acesso do root no SSH:</p>
+<a href="https://ibb.co/q1Nk032"><img src="https://i.ibb.co/4N8Psn0/Captura-de-tela-de-2023-12-05-12-51-59.png" alt="Captura-de-tela-de-2023-12-05-12-51-59" border="0"></a><br>
+<p>
+Motivação para desativação do acesso root no SSH:
+Existem algumas motivações para que essa ação seja realizada, já adianto que todas voltadas à segurança e hardening. Alguns motivos:
+
+Segurança: O acesso direto ao root via SSH pode, e geralmente é, um alvo atraente para ataques de força bruta. Desativar o acesso SSH para o usuário root aumenta a segurança, pois os invasores teriam que adivinhar não apenas a senha do root, mas também o nome de usuário correto para acessar o sistema;
+Erros acidentais: Limitar o acesso SSH para usuários nominais pode ajudar a prevenir erros acidentais cometidos por sysadmins. Ter que fazer login com uma conta de menor privilégio antes de usar privilégios administrativos pode fazer com que os administradores pensem duas vezes antes de realizar ações críticas;
+</p>
 <code><a  href="#sumario"> VOLTAR</a></code>
 <h2 id="patches">5 - Atualizado do Sevidor</h2>
 <a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a><br>
