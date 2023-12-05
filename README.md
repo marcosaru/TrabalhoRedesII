@@ -63,6 +63,16 @@ Responsável: Marcos.
 Responsável: Marcos.<br>
 <p>Repositório padrão para guardar as chaves: ~/.ssh </p>
 <p>Foram criadas três chaves ssh, uma para cada membro da equipe.</p>
+
+<p>Configuração para desabilitar o acesso do root no SSH:</p>
+<a href="https://ibb.co/q1Nk032"><img src="https://i.ibb.co/4N8Psn0/Captura-de-tela-de-2023-12-05-12-51-59.png" alt="Captura-de-tela-de-2023-12-05-12-51-59" border="0"></a><br>
+<p>
+Motivação para desativação do acesso root no SSH:
+Existem algumas motivações para que essa ação seja realizada, já adianto que todas voltadas à segurança e hardening. Alguns motivos:
+
+Segurança: O acesso direto ao root via SSH pode, e geralmente é, um alvo atraente para ataques de força bruta. Desativar o acesso SSH para o usuário root aumenta a segurança, pois os invasores teriam que adivinhar não apenas a senha do root, mas também o nome de usuário correto para acessar o sistema;
+Erros acidentais: Limitar o acesso SSH para usuários nominais pode ajudar a prevenir erros acidentais cometidos por sysadmins. Ter que fazer login com uma conta de menor privilégio antes de usar privilégios administrativos pode fazer com que os administradores pensem duas vezes antes de realizar ações críticas;
+</p>
 <code><a  href="#sumario"> VOLTAR</a></code>
 <h2 id="patches">5 - Atualizado do Sevidor</h2>
 <a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a><br>
@@ -90,7 +100,7 @@ instalação do modulo SSL:<br>
 <a href="https://ibb.co/6YVLdxr"><img src="https://i.ibb.co/H713JsB/Captura-de-tela-de-2023-11-17-13-02-40.png" alt="Captura-de-tela-de-2023-11-17-13-02-40" border="0"></a>
 <br>
 <p>Configuração do apache para ler o certificado SSL</p><br>
-<a href="https://ibb.co/CKrjrw9"><img src="https://i.ibb.co/m5xnxRy/Captura-de-tela-de-2023-11-17-12-53-27.png" alt="Captura-de-tela-de-2023-11-17-12-53-27" border="0"></a>
+<a href="https://ibb.co/sWJckGd"><img src="https://i.ibb.co/FHqcNML/https.png" alt="https" border="0"></a>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 <br>
 <h2 id="firewall">7 - Instalação Firewall </h2><br>
@@ -101,14 +111,14 @@ instalação do modulo SSL:<br>
 
 <h2 id= "firewallInst">7.1 - Configuração do Firewall da infra</h2><br>
 Responsável: Marcos.<br>
-<a href="https://ibb.co/GJj2XqW"><img src="https://i.ibb.co/wL1WTfS/firewallazure.png" alt="firewallazure" border="0"></a>
-<p>As motivações para restringir o acesso a porta 22 da instância são: </p>
+<a href="https://ibb.co/gSGnyqK"><img src="https://i.ibb.co/rxgWk8r/firewall-Infra.png" alt="firewall-Infra" border="0"></a>
+<p>As motivações para restringir o acesso a porta 22 e 80 da instância são: </p>
 <p>
-Restrição de Acesso: Limitar o acesso à porta 22 apenas ao seu IP significa que somente você, ou quem estiver conectado a partir do seu endereço IP específico, terá permissão para acessar o servidor via SSH. Isso reduz a superfície de ataque, tornando mais difícil para possíveis invasores tentarem ganhar acesso não autorizado.
+Restrição de Acesso: Limitar o acesso à porta 22 e 80 apenas ao seu IP significa que somente você, ou quem estiver conectado a partir do seu endereço IP específico, terá permissão para acessar o servidor via SSH. Isso reduz a superfície de ataque, tornando mais difícil para possíveis invasores tentarem ganhar acesso não autorizado.
 
 Princípio do Privilégio Mínimo: Conceder acesso somente a partir de endereços IP específicos reduz o risco de acesso não autorizado, uma vez que apenas dispositivos confiáveis podem se conectar.
 
-Proteção contra Ataques de Força Bruta: Limitar o acesso à porta 22 reduz a exposição a ataques de força bruta, nos quais um atacante tenta adivinhar a senha/chave privada ao tentar várias combinações. Ao restringir o acesso apenas ao seu IP, você reduz as oportunidades para esses ataques, tornando-os menos eficazes.
+Proteção contra Ataques de Força Bruta: Limitar o acesso à porta 22 e 80 reduz a exposição a ataques de força bruta, nos quais um atacante tenta adivinhar a senha/chave privada ao tentar várias combinações. Ao restringir o acesso apenas ao seu IP, você reduz as oportunidades para esses ataques, tornando-os menos eficazes.
 
 Monitoramento Simplificado: Ao permitir o acesso somente a partir de um conjunto específico de endereços IP, o monitoramento de atividades suspeitas torna-se mais fácil. Se há tentativas de acesso de IPs não autorizados, isso pode indicar uma possível ameaça ou atividade maliciosa.
 </p>
@@ -174,12 +184,12 @@ Esse tópico explorado visa desabilitar o método HTTP TRACE no servidor Apache 
 O método TRACE, destinado a fins de diagnóstico, não é necessário e é suscetível a abusos, portanto, deve ser desativado por questões de segurança.</p><br>
 
 Comprovação da pasta onde contém os scripts limpa:<br>
-<a href="https://ibb.co/G5rxXJm"><img src="https://i.ibb.co/W2RxQ3C/remocao-Scripts.png" alt="remocao-Scripts" border="0" style="width: 100; height: auto;"></a><br>
+<a href="https://ibb.co/Smxwn64"><img src="https://i.ibb.co/FYW4whL/CIS.png" alt="CIS" border="0"></a><br>
 <br>
 Comprovação da implementação:<br>
-<a href="https://ibb.co/26FjxH4"><img src="https://i.ibb.co/9vpq6S5/impl.png" alt="impl" border="0"></a>
+<a href="https://ibb.co/p2h8bvM"><img src="https://i.ibb.co/9nZLc91/http.png" alt="http" border="0"></a>
 <br>
-<a href="https://ibb.co/CKrjrw9"><img src="https://i.ibb.co/m5xnxRy/Captura-de-tela-de-2023-11-17-12-53-27.png" alt="Captura-de-tela-de-2023-11-17-12-53-27" border="0"></a>
+<a href="https://ibb.co/sWJckGd"><img src="https://i.ibb.co/FHqcNML/https.png" alt="https" border="0"></a>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 
 <h2 id="logs">Logsss</h2>
