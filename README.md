@@ -110,13 +110,13 @@ instalação do modulo SSL:<br>
 <h2 id= "firewallInst">7.1 - Configuração do Firewall da infra</h2><br>
 Responsável: Marcos.<br>
 <a href="https://ibb.co/gSGnyqK"><img src="https://i.ibb.co/rxgWk8r/firewall-Infra.png" alt="firewall-Infra" border="0"></a>
-<p>As motivações para restringir o acesso a porta 22 da instância são: </p>
+<p>As motivações para restringir o acesso a porta 22 e 80 da instância são: </p>
 <p>
-Restrição de Acesso: Limitar o acesso à porta 22 apenas ao seu IP significa que somente você, ou quem estiver conectado a partir do seu endereço IP específico, terá permissão para acessar o servidor via SSH. Isso reduz a superfície de ataque, tornando mais difícil para possíveis invasores tentarem ganhar acesso não autorizado.
+Restrição de Acesso: Limitar o acesso à porta 22 e 80 apenas ao seu IP significa que somente você, ou quem estiver conectado a partir do seu endereço IP específico, terá permissão para acessar o servidor via SSH. Isso reduz a superfície de ataque, tornando mais difícil para possíveis invasores tentarem ganhar acesso não autorizado.
 
 Princípio do Privilégio Mínimo: Conceder acesso somente a partir de endereços IP específicos reduz o risco de acesso não autorizado, uma vez que apenas dispositivos confiáveis podem se conectar.
 
-Proteção contra Ataques de Força Bruta: Limitar o acesso à porta 22 reduz a exposição a ataques de força bruta, nos quais um atacante tenta adivinhar a senha/chave privada ao tentar várias combinações. Ao restringir o acesso apenas ao seu IP, você reduz as oportunidades para esses ataques, tornando-os menos eficazes.
+Proteção contra Ataques de Força Bruta: Limitar o acesso à porta 22 e 80 reduz a exposição a ataques de força bruta, nos quais um atacante tenta adivinhar a senha/chave privada ao tentar várias combinações. Ao restringir o acesso apenas ao seu IP, você reduz as oportunidades para esses ataques, tornando-os menos eficazes.
 
 Monitoramento Simplificado: Ao permitir o acesso somente a partir de um conjunto específico de endereços IP, o monitoramento de atividades suspeitas torna-se mais fácil. Se há tentativas de acesso de IPs não autorizados, isso pode indicar uma possível ameaça ou atividade maliciosa.
 </p>
