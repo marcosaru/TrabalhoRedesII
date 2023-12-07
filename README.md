@@ -98,8 +98,19 @@ Responsavel: Everton
 <h2 id="ca">6.1 - Criação da chave privada e certificado auto assinado</h2>
 <p>Material utilizado: https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-tls-encryption-on-an-apache-http-server_setting-apache-http-server</p><br>
 <p>Material para chave: https://docs.rockylinux.org/guides/security/ssl_keys_https/#generating-ssltls-keys</p><br>
+Criando o Certificado
+<a href="https://ibb.co/FgzYbJm"><img src="https://i.ibb.co/f4HNYtq/criando-certificado-https.png" alt="criando-certificado-https" border="0"></a>
+Certificado HTTPS
+<a href="https://ibb.co/CW571sq"><img src="https://i.ibb.co/N76jVnX/certificado-https.png" alt="certificado-https" border="0"></a>
+Criação da chave https
+<a href="https://ibb.co/yRh7PyK"><img src="https://i.ibb.co/1nsjQqB/chave-criada-https.png" alt="chave-criada-https" border="0"></a>
+Habilitando o HTTP
+<a href="https://ibb.co/1R1v7v3"><img src="https://i.ibb.co/Zc5LGL3/habilitando-o-httpd.png" alt="habilitando-o-httpd" border="0"></a>
+Chave privada criada
+<a href="https://ibb.co/BGyD95N"><img src="https://i.ibb.co/1MrVkt6/chave-priv-de-assinar-o-certificado.png" alt="chave-priv-de-assinar-o-certificado" border="0"></a>
 instalação do modulo SSL:<br>
 <a href="https://ibb.co/MPfDgGX"><img src="https://i.ibb.co/YfX7Nyr/Captura-de-tela-de-2023-11-13-08-27-55.png" alt="Captura-de-tela-de-2023-11-13-08-27-55" border="0"></a><br>
+Responsáveis: Everton / Marcos
 
 <h2>Criação do certificado SSL</h2><br>
 <a href="https://ibb.co/6YVLdxr"><img src="https://i.ibb.co/H713JsB/Captura-de-tela-de-2023-11-17-13-02-40.png" alt="Captura-de-tela-de-2023-11-17-13-02-40" border="0"></a>
