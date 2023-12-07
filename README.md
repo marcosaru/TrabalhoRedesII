@@ -76,6 +76,7 @@ Erros acidentais: Limitar o acesso SSH para usuários nominais pode ajudar a pre
 <code><a  href="#sumario"> VOLTAR</a></code>
 <h2 id="patches">5 - Atualizado do Sevidor</h2>
 <a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a><br>
+
 Instancia atualizada (06/12/2023 - 21H)
 <a href="https://ibb.co/QcmqV7b"><img src="https://i.ibb.co/TThnGDv/atualizando-a-instancia-1.png" alt="atualizando-a-instancia-1" border="0"></a>
 <a href="https://ibb.co/gMjDtSm"><img src="https://i.ibb.co/JRBzrvm/atualizando-a-instancia-2.png" alt="atualizando-a-instancia-2" border="0"></a>
