@@ -1,4 +1,5 @@
 # Trabalho de Redes II
+
 <b>UFSC 2023/2</b><br><br>
 Professor <a href="https://github.com/glcamillo">Gerson Luiz Camillo</a><br><br>
 
@@ -76,23 +77,41 @@ Erros acidentais: Limitar o acesso SSH para usuários nominais pode ajudar a pre
 <code><a  href="#sumario"> VOLTAR</a></code>
 <h2 id="patches">5 - Atualizado do Sevidor</h2>
 <a href="https://ibb.co/nLvmRB2"><img src="https://i.ibb.co/fx5FQ9R/print-da-1atualizacao-19-10-23.png" alt="print-da-1atualizacao-19-10-23" border="0"></a><br>
+
+Instancia atualizada (06/12/2023 - 21H)
+<a href="https://ibb.co/QcmqV7b"><img src="https://i.ibb.co/TThnGDv/atualizando-a-instancia-1.png" alt="atualizando-a-instancia-1" border="0"></a>
+<a href="https://ibb.co/gMjDtSm"><img src="https://i.ibb.co/JRBzrvm/atualizando-a-instancia-2.png" alt="atualizando-a-instancia-2" border="0"></a>
 Responsável: Everton
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 <br>
+
 <h2 id="apache2">6 - Instalação do Apache2</h2><br><code>
+<p>O Apache2 foi escolhido, principalmente, por ser um software de código aberto, ser estável e confiavél além de suportar protocolos variados(Como o HTTP e o HTTPS)</p>
 <a href="https://ibb.co/HVs8Xrd"><img src="https://i.ibb.co/bPZ97rJ/Captura-de-tela-2023-10-31-instalando-o-apache.png" alt="Captura-de-tela-2023-10-31-instalando-o-apache" border="0"></a>
 <a href="https://ibb.co/Gcm20Gr"><img src="https://i.ibb.co/Ypgk3JV/Captura-de-tela-2023-10-31-ativando-o-apache.png" alt="Captura-de-tela-2023-10-31-ativando-o-apache" border="0"></a><br>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
 <p>Chrony User padrão rodando</p><br>
 <a href="https://ibb.co/LrrFv5Y"><img src="https://i.ibb.co/T11frLY/verificar-o-que-essa-porta-323.png" alt="verificar-o-que-essa-porta-323" border="0"></a><br>
+<P> O Chrony é uma implementação de protocolos de sincronização de tempo, como o NTP, e é usado para garantir uma precisão adequada nos relógios de computadores em uma rede</P>
 Responsavel: Everton
 <br>
 
 <h2 id="ca">6.1 - Criação da chave privada e certificado auto assinado</h2>
 <p>Material utilizado: https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-tls-encryption-on-an-apache-http-server_setting-apache-http-server</p><br>
 <p>Material para chave: https://docs.rockylinux.org/guides/security/ssl_keys_https/#generating-ssltls-keys</p><br>
+Criando o Certificado
+<a href="https://ibb.co/FgzYbJm"><img src="https://i.ibb.co/f4HNYtq/criando-certificado-https.png" alt="criando-certificado-https" border="0"></a>
+Certificado HTTPS
+<a href="https://ibb.co/CW571sq"><img src="https://i.ibb.co/N76jVnX/certificado-https.png" alt="certificado-https" border="0"></a>
+Criação da chave https
+<a href="https://ibb.co/yRh7PyK"><img src="https://i.ibb.co/1nsjQqB/chave-criada-https.png" alt="chave-criada-https" border="0"></a>
+Habilitando o HTTP
+<a href="https://ibb.co/1R1v7v3"><img src="https://i.ibb.co/Zc5LGL3/habilitando-o-httpd.png" alt="habilitando-o-httpd" border="0"></a>
+Chave privada criada
+<a href="https://ibb.co/BGyD95N"><img src="https://i.ibb.co/1MrVkt6/chave-priv-de-assinar-o-certificado.png" alt="chave-priv-de-assinar-o-certificado" border="0"></a>
 instalação do modulo SSL:<br>
 <a href="https://ibb.co/MPfDgGX"><img src="https://i.ibb.co/YfX7Nyr/Captura-de-tela-de-2023-11-13-08-27-55.png" alt="Captura-de-tela-de-2023-11-13-08-27-55" border="0"></a><br>
+Responsáveis: Everton / Marcos
 
 <h2>Criação do certificado SSL</h2><br>
 <a href="https://ibb.co/6YVLdxr"><img src="https://i.ibb.co/H713JsB/Captura-de-tela-de-2023-11-17-13-02-40.png" alt="Captura-de-tela-de-2023-11-17-13-02-40" border="0"></a>
@@ -189,3 +208,8 @@ Comprovação da implementação:<br>
 <br>
 <a href="https://ibb.co/sWJckGd"><img src="https://i.ibb.co/FHqcNML/https.png" alt="https" border="0"></a>
 <br><code><a  href="#sumario"> VOLTAR</a></code>
+
+<h2 id="logs">Logsss</h2>
+<p>Tópico "A" 30 Primeiros Logins de Autenticação</p>
+<P><a href="https://ibb.co/C0QQr0j"><img src="https://i.ibb.co/XJttwJn/30pri-logns.png" alt="30pri-logns" border="0"></a></P>
+<P>Tópico "B" Logs de Acesso do Servidor WEB</P>
